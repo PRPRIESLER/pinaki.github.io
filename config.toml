@@ -1,0 +1,4 @@
+baseURL = "http://pinaki.github.io/"
+languageCode = "en-us"
+title = "Pinaki Pani"
+theme = "gohugo-theme-ananke"
