@@ -1,4 +1,73 @@
-baseURL = "http://pinaki.github.io/"
-languageCode = "en-us"
-title = "Pinaki Pani"
-theme = "gohugo-theme-ananke"
+baseURL = "/"
+title = "The Lazy Learner"
+author = "Pinaki Pani"
+copyright = "Copyright © 2020–2021, Pinaki Pani; all rights reserved."
+paginate = 6
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+
+
+[params]
+  logo = ""
+  instagram = "https://www.instagram.com/pleasemecanyou/"
+  twitter = "https://twitter.com/ranjan_pinaki_"
+  github = "https://github.com/PRPRIESLER"
+  description = "My models run while I sleep!"
+  mainSections = ["post"]
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "image-credit"
+    name = "Image Credit"
+    url = "/image-credit/"
+    weight = 20
+  [[menu.main]]
+    identifier = "github-repo-theme"
+    name = "Github"
+    url = "https://github.com/PRPRIESLER"
+    weight = 30
+  [[menu.main]]
+    identifier = "author"
+    name = "Connect With Pinaki"
+    url = "https://www.linkedin.com/in/pinaki-ranjan/"
+    weight = 40
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
