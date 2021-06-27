@@ -9,7 +9,7 @@ tags: ["Deep Learning","GANs","Python"]
 ---
 
 ## Catch up with RNNs and key differences
----
+-------
 
 RNNs generate one word at a time similarly they also generate one pixel at a time for images. Whereas GANs help to generate a whole image in parallel. It uses a generator-discriminator Network. The generator model takes random noise and runs it through a differentiable function to transform/reshape it to a more realistic image. The random input noise that we chose determines what type of images to produce. 
 The generator needs to be trained, but its training is different from usual supervised models. We show the model a lot of images and ask it to produce an image that comes out of the same probability distribution as of the images shown to it. Mostly it can be done by tweaking the parameters to increase the probability that the generator will generate something similar to our training dataset, but it is very difficult to arrive at that probability. So, a discriminator is what usually used to do the task of guiding our generator to achieve the required probability.
@@ -24,7 +24,8 @@ The more the generator maps random noise to images the probability distribution 
 >That the generator learns to generate images or let's say it generates data that has a similar distribution as of the distribution of the real data. This is how it tries to trick the discriminator into thinking that the generated image is actually from the real dataset when tested. Thus now we know what distribution the genertor data converges to.
 
 ## Payoffs and Equilibria (In context of Machine Learning!)
-----
+--------
+
 Both Generator and Discriminator has their own cost function to be optimized. Now the cost for discriminator is just the negative of the cost for the generator. The minimum cost from the generator and the maximum cost for the discriminator causes the state of equilibria.
 If we look at the Generator and the Discriminator architecture, we can see that there is always a hidden layer in both the cases as the need to have the universal approximator property, which basically mean that the model is able to approximate one continuous function space between two Euclidean spaces, where the approximation is done usually with respect to compact convergence theory.
 
