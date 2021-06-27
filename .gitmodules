@@ -1,4 +1,3 @@
-
 [submodule "themes/hugo-casper3"]
 	path = themes/hugo-casper3
 	url = https://github.com/jonathanjanssens/hugo-casper3.git
