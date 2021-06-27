@@ -10,7 +10,6 @@ tags: ["Deep Learning","GANs","Python"]
 
 ## Catch up with RNNs and key differences
 ---
-<p style="font-size:14pt;">
 
 RNNs generate one word at a time similarly they also generate one pixel at a time for images. Whereas GANs help to generate a whole image in parallel. It uses a generator-discriminator Network. The generator model takes random noise and runs it through a differentiable function to transform/reshape it to a more realistic image. The random input noise that we chose determines what type of images to produce. 
 The generator needs to be trained, but its training is different from usual supervised models. We show the model a lot of images and ask it to produce an image that comes out of the same probability distribution as of the images shown to it. Mostly it can be done by tweaking the parameters to increase the probability that the generator will generate something similar to our training dataset, but it is very difficult to arrive at that probability. So, a discriminator is what usually used to do the task of guiding our generator to achieve the required probability.
@@ -30,4 +29,4 @@ Both Generator and Discriminator has their own cost function to be optimized. No
 If we look at the Generator and the Discriminator architecture, we can see that there is always a hidden layer in both the cases as the need to have the universal approximator property, which basically mean that the model is able to approximate one continuous function space between two Euclidean spaces, where the approximation is done usually with respect to compact convergence theory.
 
 _The output of the generator is calculated by a feedforward layer with tanh calculation to get the output between -1 and 1, and mostly the output of the discriminator is calculated by a sigmoid layer as we need it to be a probability._
-</p>
+
