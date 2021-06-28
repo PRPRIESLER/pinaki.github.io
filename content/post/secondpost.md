@@ -43,8 +43,6 @@ Get the loss on real/training images. After getting the loss we can generate the
 ----
 The generator generates fake images. Initially according to the base paper of GANs the basic idea is to train the generator in such a way that it could maximize the Discriminator loss, or in other way, minimize the loss: (1 – Disc(fake_image))
 
-<img src="/images/second_formula.png" alt="drawing" width="200"/>
-
 ![](/images/second_formula.png)
 which basically comes down to this minmax formula as shown above. 
 
