@@ -20,7 +20,8 @@ As of something that keeps me pushing forward is always the will to learn. My _i
 
 I also post my blogs on medium: [Pinaki's Road to Failure..](https://riesler.medium.com/few-basic-ideas-of-core-features-in-python-27bc62721009)
 
-Finally I'll just drop the links to few of the projects the I have implemented till now:
+I'll also drop the links to few of the projects the I have implemented until now. Please go check them out:
+
 >* [My General Approach towards Machine Learning Business problems.](https://github.com/PRPRIESLER/Approach_Towards_Machine_Learning_Problems)
 >* [Dog Breed Classification](https://github.com/PRPRIESLER/Dog_Breed_Classification)
 >* [Script Generation for a TV Special(Script looks like a crash but gives a fair bit of idea how text processing works)](https://github.com/PRPRIESLER/TV_Script_Generation)
