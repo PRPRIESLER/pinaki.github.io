@@ -25,9 +25,9 @@ footnoteReturnLinkContents = "^"
     url = "/about/"
     weight = 10
   [[menu.main]]
-    identifier = "image-credit"
-    name = "Image Credit"
-    url = "/image-credit/"
+    identifier = "Projects"
+    name = "Projects"
+    url = "/projects/"
     weight = 20
   [[menu.main]]
     identifier = "github-repo-theme"
