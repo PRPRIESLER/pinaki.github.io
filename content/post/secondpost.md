@@ -22,7 +22,7 @@ The more the generator maps random noise to images the probability distribution 
 
 *Now this is the point where I need to add this note. The explanation of the summary of the whole paper or let's say a simplification for the GAN paper that was written, it would be:*
 
->That the generator learns to generate images or let's say it generates data that has a similar distribution as of the distribution of the real data. This is how it tries to trick the discriminator into thinking that the generated image is actually from the real dataset when tested. Thus now we know what distribution the genertor data converges to.
+>That the generator learns to generate images or let's say it generates data that has a similar distribution as of the distribution of the real data. This is how it tries to trick the discriminator into thinking that the generated image is actually from the real dataset when tested. Thus now we know what distribution, the genertor data converges to.
 
 ## Payoffs and Equilibria (In context of Machine Learning!)
 --------

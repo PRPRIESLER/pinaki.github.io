@@ -6,9 +6,9 @@ aliases: ["about-me","about-Pinaki","Contact"]
 author: "Pinaki Pani"
 ---
 
-I'm a ML/DL enthusiast who has stepped into this field about 3 years ago and besides being lazy i am still learning day in day out, even while i sleep.
+I'm a ML/DL enthusiast who has stepped into this field about 3 years ago and besides being lazy i am still learning day in day out, even while i sleep(no joke..I'm serious..I mean my models do..teehee).
 
-My blogs/writings are a way to describe my thought process while i understand something new, especially in the field of AI.
+My blogs/writings are a way to describe my thought process while i learn something new, especially in the field of AI.
 
 I am currently learning quite a bit about Computer Vision and also on the implementation of AI in the healthcare system, which might lead to posts regarding the new technologies that is being used in medical science to mitigate with challenges through the help of AI.
 
