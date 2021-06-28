@@ -27,7 +27,7 @@ The more the generator maps random noise to images the probability distribution 
 --------
 
 Both Generator and Discriminator has their own cost function to be optimized. Now the cost for discriminator is just the negative of the cost for the generator. The minimum cost from the generator and the maximum cost for the discriminator causes the state of equilibria.
-If we look at the Generator and the Discriminator architecture, we can see that there is always a hidden layer in both the cases as the need to have the universal approximator property, which basically mean that the model is able to approximate one continuous function space between two Euclidean spaces, where the approximation is done usually with respect to compact convergence theory.
+If we look at the Generator and the Discriminator architecture, we can see that there is always a hidden layer in both the cases as the need to have the universal approximator property, which basically means that the model is able to approximate one continuous function space between two Euclidean spaces, where the approximation is done usually with respect to compact convergence theory.
 
 _The output of the generator is calculated by a feedforward layer with tanh calculation to get the output between -1 and 1, and mostly the output of the discriminator is calculated by a sigmoid layer as we need it to be a probability._
 
