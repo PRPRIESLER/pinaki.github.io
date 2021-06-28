@@ -10,7 +10,7 @@ I'm a ML/DL enthusiast who has stepped into this field about 3 years ago and bes
 
 My blogs/writings are a way to describe my thought process while i understand something new, especially in the field of AI.
 
-I am currently learning quite a bit about Computer Vision and also on the implementation of AI in the healthcare system, which might lead me to include posts regarding the new technology that is being used in medical science to mitigate with challenges through the help of AI.
+I am currently learning quite a bit about Computer Vision and also on the implementation of AI in the healthcare system, which might lead to posts regarding the new technologies that is being used in medical science to mitigate with challenges through the help of AI.
 
 My target as of now is to keep myself healthy and to continue to contribute as much as i can towards the open source community out there and gain from them as well.
 
