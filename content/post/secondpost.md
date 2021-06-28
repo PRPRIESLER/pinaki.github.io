@@ -31,3 +31,21 @@ If we look at the Generator and the Discriminator architecture, we can see that 
 
 _The output of the generator is calculated by a feedforward layer with tanh calculation to get the output between -1 and 1, and mostly the output of the discriminator is calculated by a sigmoid layer as we need it to be a probability._
 
+Loss for both the gen and disc are defined and the losses are optimized simultaneously. This architecture is of DCGAN designed by Indigo and Facebook.
+To scale GANs up to large images we need to use CNN.
+Usually while working with CNN the size of the image is decreased while the depth is increased with every CNN and maxpooling layer. But we need to increase the size of the image as well as the depth for working with large images on GANs.
+Now while training the Discriminator and the Generator we need to keep in mind that we need to smoothen the true labels for discriminator which is basically making the labels of real images from one to 0.9 as that will allow the network to work around more gradient nuances than just having 0 gradient. 
+* ## Discriminator Training:
+----
+Get the loss on real/training images. After getting the loss we can generate the fake images, which will allow the discriminator to grab the fake loss on the generated images. Summing up both the losses we can perform backpropagation and then that allows us to update the discriminator parameter weights.
+
+* ## Generator Training:
+----
+The generator generates fake images. Initially according to the base paper of GANs the basic idea is to train the generator in such a way that it could maximize the Discriminator loss, or in other way, minimize the loss: (1 – Disc(fake_image))
+
+<img src="/images/second_formula.png" alt="drawing" width="200"/>
+
+![](/images/second_formula.png)
+which basically comes down to this minmax formula as shown above. 
+
+Now there are many other techniques that has come forward for better and efficient generator and discriminator training. We can find more about it in the paper here :  [Improved Techniques for Training GANs](https://arxiv.org/abs/1606.03498)
