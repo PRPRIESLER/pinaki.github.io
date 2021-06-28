@@ -20,7 +20,7 @@ Initially this discriminator is tasked to generate probabilities of the images p
 
 The more the generator maps random noise to images the probability distribution over the generated images represented by the model becomes denser. The discriminator outputs high value wherever the density of real/training data is greater than the generated data. Generator changes the samples it produces to move uphill along the function learned by the discriminator. So basically, the generator moves its samples to the areas where the model distribution is not yet dense enough. At this point it becomes very difficult and the discriminator generates a probability of 0.5 as the images can now either be from the real dataset or maybe generated.
 
-*Now this is the point where I need to add this note, as the explanation is the summary of the whole paper or if to be even simplified for the GAN paper that was written would be:*
+*Now this is the point where I need to add this note. The explanation of the summary of the whole paper or let's say a simplification for the GAN paper that was written, it would be:*
 
 >That the generator learns to generate images or let's say it generates data that has a similar distribution as of the distribution of the real data. This is how it tries to trick the discriminator into thinking that the generated image is actually from the real dataset when tested. Thus now we know what distribution the genertor data converges to.
 
