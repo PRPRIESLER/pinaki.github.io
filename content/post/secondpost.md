@@ -37,9 +37,11 @@ Usually while working with CNN the size of the image is decreased while the dept
 Now while training the Discriminator and the Generator we need to keep in mind that we need to smoothen the true labels for discriminator which is basically making the labels of real images from one to 0.9 as that will allow the network to work around more gradient nuances than just having 0 gradient. 
 
  ## Discriminator Training:
+ 
 Get the loss on real/training images. After getting the loss we can generate the fake images, which will allow the discriminator to grab the fake loss on the generated images. Summing up both the losses we can perform backpropagation and then that allows us to update the discriminator parameter weights.
 
  ## Generator Training:
+
 The generator generates fake images. Initially according to the base paper of GANs the basic idea is to train the generator in such a way that it could maximize the Discriminator loss, or in other way, minimize the loss: (1 – Disc(fake_image))
 
 ![](/images/second_formula.png)
