@@ -3,8 +3,6 @@
 {{ define "main" }}
 
 <header class="site-home-header">
-    <link rel='shortcut icon' type='image/x-icon' href='/static/images/favicon.ico' />
-    <link rel=“icon” href="/static/images/favicon.ico" type=“image/x-icon”>
     {{ .Scratch.Set "background" .Params.feature_image }}
     {{- partial "header-background.html" . -}}
         <div class="inner">
