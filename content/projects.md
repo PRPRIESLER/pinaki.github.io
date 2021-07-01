@@ -7,7 +7,7 @@ draft: false
 
 >* | <a target="_blank" href="https://github.com/PRPRIESLER/Approach_Towards_Machine_Learning_Problems" title="My General Approach towards Machine Learning Business problems"><img src="https://images.unsplash.com/photo-1591453089816-0fbb971b454c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" style="width:550px; height:300px"></a> |
 |:--:|
-| <a target="_blank" href="https://github.com/PRPRIESLER/Approach_Towards_Machine_Learning_Problems" style="text-decoration:none;">My General Approach towards Machine Learning Business problems</a> |
+| <a target="_blank" href="https://github.com/PRPRIESLER/Approach_Towards_Machine_Learning_Problems" style="text-decoration:none;">Approach towards Machine Learning Business problems</a> |
 >* | <a href="https://github.com/PRPRIESLER/Dog_Breed_Classification" title="Dog Breed Classification"><img src="https://images.unsplash.com/photo-1550450888-a1ad510ccacc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" style="width:550px; height:300px"></a> |
 |:--:|
 | <a target="_blank" href="https://github.com/PRPRIESLER/Dog_Breed_Classification" style="text-decoration:none;">Dog Breed Classification</a> |
