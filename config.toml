@@ -40,6 +40,11 @@ footnoteReturnLinkContents = "^"
     url = "https://www.linkedin.com/in/pinaki-ranjan/"
     weight = 40
 
+[markup.goldmark.renderer]
+  unsafe = true 
+
+
+
 [taxonomies]
 category = "categories"
 tag = "tags"
