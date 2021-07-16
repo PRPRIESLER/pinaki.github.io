@@ -46,7 +46,7 @@ Very often in Python programming we come across the above line of code within mu
 
 checks out then it means that this script was run all by itself and wasn't imported.
 
-```
+```python
 #1st Page
 if __name__ == '__main__':
     print "Run Directly"
@@ -80,7 +80,7 @@ Every class in python has a metaclass that they are subclasses of. This metaclas
 
 @property is used to get the value of a private attribute without using any getter methods. We have to put a line @property in front of the method where we return the private variable. To set the value of the private variable, we use @method_name.setter in front of the method. We have to use it as a setter.
 
-```
+```python
 class Property:
 
     def __init__(self, var):

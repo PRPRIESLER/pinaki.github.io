@@ -512,7 +512,7 @@ def view_samples(epoch, samples):
 
 ![](/images/DCGAN_final.png)
 
-## Final COnclusion
+## Final Conclusion
 
 As we can see here that the model is able to generate convincingly enough realistic house numbers. Now had the training been a tad bit longer we could have seen even further development. I stopped it faster to get a result that would be convincing enough for the sake of this article.
 
