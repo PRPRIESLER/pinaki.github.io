@@ -1311,10 +1311,10 @@ body {
   padding: 20px;
   max-width: 100%;
   border: 1px solid #000;
-  //   color: #e5eff5;
+  color: #e5eff5;
   font-size: 1.4rem;
   line-height: 1.5em;
-  //   background: #0e0f11;
+  background: #0e0f11;
   border-radius: 5px;
 }
 .post-full-content pre ::-moz-selection {
@@ -1330,7 +1330,7 @@ body {
   background: transparent;
 }
 .post-full-content pre code :not(span) {
-  //   color: inherit;
+  color: inherit;
 }
 .post-full-content .fluid-width-video-wrapper {
   margin: 1.5em 0 3em;
@@ -2726,8 +2726,8 @@ body {
     color: #fff;
   }
   .post-full-content code {
-    // color: #fff;
-    // background: #000;
+    color: #fff;
+    background: #000;
   }
   hr {
     border-top-color: #2b2f36;
