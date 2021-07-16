@@ -8,10 +8,6 @@ feature_image: "https://images.unsplash.com/photo-1618795808464-8dc4cadb744d?ixi
 tags: ["Deep Learning","GANs","Python"]
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.61.0/lib/codemirror.min.css">
-<script src="https://cdn.jsdelivr.net/npm/codemirror@5.61.0/addon/runmode/runmode-standalone.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/codemirror@5.61.0/mode/python/python.min.js"></script>
-
 # Deep Convolutional GAN
 Implementing a Deep Convolutional GAN where we are trying to generate house numbers which are supposed to look as realistic as possible.The DCGAN architecture was first explored in 2016 and has seen impressive results in generating new images; you can read the [original paper, here](https://arxiv.org/pdf/1511.06434.pdf/?target=_blank)
 
@@ -30,18 +26,9 @@ import torch.nn.functional as F
 _The above imports are the estimated imports that we usually require in our Notebooks. There might be more in along the way which we will import as we move forward._
 
 ## Get the Data
-<pre class="line-numbers">
-   <code class="language-python" id="python_code">
-    def preprocess_scaling(x, feature_range = (-1,1)):
-        '''Helper function to scale the images from -1 to 1.
-        where -1 to 1 is the feature range where the features of the images lies in.'''
-        min, max = feature_range
-        x = x*(max-min)+min
-        return x
-   </code>
-</pre>
 
 ```python
+
 #define the transformations to persform on the images
 transform = transforms.ToTensor()
 
@@ -56,11 +43,13 @@ train_loader = torch.utils.data.DataLoader(dataset=dcgan_train,
                                            batch_size=batch_size, 
                                            shuffle=True, 
                                            num_workers=num_workers)
+
 ```
 ## Visulalization of Data.
 Before we move along we need to see the data that we just grabbed. To check whether the data looks good to move along. Also make sure the data we are going to work with are all of same dimensions i.e., 32x32x3 where 3 is the depth of each of the image(`as they are RGB images`) that we grab from our dataset. __Also we can see that there is a numerical value associated with each of the image.__
 
 ```python
+
 # grab one batch of image and label from the loader
 dataiter = iter(train_loader)
 images, labels = dataiter.next()
@@ -71,6 +60,7 @@ plot_size=20
 for idx in np.arange(plot_size):
     ax = fig.add_subplot(2,plot_size/2, idx+1,xticks=[], yticks=[])
     ax.imshow(np.transpose(images[idx], (1,2,0)))
+
 ```
 ![](/images/DCGAN_visualization.png)
 
