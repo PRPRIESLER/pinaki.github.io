@@ -48,6 +48,7 @@ The scores are calculated by a few formulas:
 ## Additive Attention:
 
 It doesn’t really have anything significant to explain. It does exactly as the formula stands for.
+
 ![](/images/attention_additive.png)
 
 The process is further optimized by the help of transformers. I would explain more about it in the next upcoming post.
