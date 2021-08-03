@@ -3,7 +3,7 @@ title: 'Attention'
 date: 2021-08-03T19:47:00+05:30
 author: 'Pinaki Pani'
 description: 'Detailed Explanation on the invent of Attention.'
-feature_image: 'https://media1.tenor.com/images/9b65f0acead76c7e6d708526d2203d51/tenor.gif?itemid=14948889'
+feature_image: '/images/attention_banner.gif'
 tags: ['RNN', 'Deep Learning', 'GANs', 'Python']
 draft: False
 ---
