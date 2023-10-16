@@ -1,5 +1,5 @@
 ---
-title: "Training_optimize"
+title: "Neural Network Model Training Optimization"
 date: 2023-10-14T23:20:18+01:00
 draft: false
 author: "Pinaki Pani"
