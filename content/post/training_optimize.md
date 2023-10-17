@@ -61,3 +61,27 @@ While if we consider the squares of the coefficients then this is known as **L2 
 
 Sometimes one part of our neural network model has a very large weights while the others dont associate with larger coefficients. So what dropout suggests is to randomly take some nodes off of the model and then try to figure out the output. While this is one run or epoch the other epochs will have some other randomly selected sets of nodes to turn off and go ahead with our output prediction.
 Such a parameter exists in our alogrithm that determines the _probability that each node will be dropped_. So for each epoch each nodes get dropped with a probability of the perentage mentioned in the said parameter. This method of dropping a particular node is termed as dropout and is commonly used in neural networks.
+
+### 6. Local Minima
+
+---
+
+One of the interesting issues that we might come across often while trining neural network models is that our errors minimize up to a certain level and then they start increasing. This usually happens when gradient descent is used and the descent leads us to a certain level of minima but that not necessarily might be population minimam and is generally termed as local minima. So this might not give us the best error regularization, while it does allow the model to be regularised upto a certain level.
+
+So now to solve issues as such we can take a few steps that could help us find the best possible population minima value.
+
+> **Random Restart** - What random restart suggests is that we start doing gradient descent for our error from random places which could help us reach the global minima or atleast a pretty good local minima value.
+
+### 7. Vanishing Gradient
+
+---
+
+One of the other issues that often occurs while training the neural network models is that the gradients are so small that it almost seems like it vanished. The logic behind vanishing gradient is that when we find the derivative of the error with respect to the coefficients of the nodes then by the rule of _**backpropagation**_ we can denote that it is the product of all the derivatives by the _**chain rule**_ calculated at the node in the corresponding path to the output.
+
+These derivatives are derived from sigmoid function so they are already very small, and the products of these small numbers is even tinier. This tiny gradient makes the descent very difficult and slow. So its possible that we might never be able to reach a ceratin level of minimum value or else the time taken to reach a minima is way too high.
+
+One of the ways that we can avoid vanishing gradients is using a different type of activation function. Activation functions such as **Hyperbolic Tangent function** or a **Rectified Linear Unit** activation function are often used.
+
+> The range of values a sigmoid fucntion can return is from 0 to 1 while the **tanh()** function can return a range of values from -1 to 1, which in turn denotes that the deivatives for such fucntion will also be slightly larger than the derivatives of sigmoid fucntion.
+
+> **relu()** on the other hand denotes that it will return a positive value as it is while if the result is negative it returns 0. The derivaties always gives 1 for positive numbers. It barely breaks linearity but provides better and complex non linear solutions without sacrificing much accuracy.
