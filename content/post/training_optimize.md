@@ -85,3 +85,5 @@ One of the ways that we can avoid vanishing gradients is using a different type 
 > The range of values a sigmoid fucntion can return is from 0 to 1 while the **tanh()** function can return a range of values from -1 to 1, which in turn denotes that the deivatives for such fucntion will also be slightly larger than the derivatives of sigmoid fucntion.
 
 > **relu()** on the other hand denotes that it will return a positive value as it is while if the result is negative it returns 0. The derivaties always gives 1 for positive numbers. It barely breaks linearity but provides better and complex non linear solutions without sacrificing much accuracy.
+
+There are further more issues that one might come across while training their model. It is important to check for above issues and look out for more. A successful model training needs thorough knowledge of the dataset one is handling and working upon.
