@@ -14,7 +14,7 @@ I am currently learning quite a bit about Computer Vision and also on the implem
 
 My target as of now is to keep myself healthy and to continue to contribute as much as i can towards the open source community out there and gain from them as well.
 
-As of something that keeps me pushing forward is always the will to learn. My _ikigai_.
+As of something that keeps me pushing forward is always the will to learn. My _ikigai_!
 
 I also post my blogs on medium: [Check here..](https://riesler.medium.com/few-basic-ideas-of-core-features-in-python-27bc62721009)
 
