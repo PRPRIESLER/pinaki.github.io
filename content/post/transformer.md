@@ -4,6 +4,7 @@ date: 2024-02-17T20:19:31Z
 draft: false
 author: "Pinaki Pani"
 description: "Transformers in Sequential Attention"
+tags: ["Deep Learning", "Python", "Transformers"]
 feature_image: "https://images.unsplash.com/photo-1560700105-7a3450fd2531?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
