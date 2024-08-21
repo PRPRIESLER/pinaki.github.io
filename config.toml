@@ -12,8 +12,8 @@ footnoteReturnLinkContents = "^"
 
 [params]
   logo = ""
-  instagram = "https://www.instagram.com/_thelazylearner/"
-  twitter = "https://twitter.com/ranjan_pinaki_"
+  instagram = "https://www.instagram.com/enclosedentity/?hl=en"
+  twitter = "https://x.com/ranjan_pinaki23"
   github = "https://github.com/PRPRIESLER"
   description = "My models run while I sleep!"
   mainSections = ["post"]
@@ -37,7 +37,7 @@ footnoteReturnLinkContents = "^"
   [[menu.main]]
     identifier = "author"
     name = "Connect With Pinaki"
-    url = "https://www.linkedin.com/in/pinaki-ranjan/"
+    url = "https://www.linkedin.com/in/pinaki-pani/"
     weight = 40
 
 [markup.goldmark.renderer]
