@@ -6,9 +6,6 @@ aliases: ["about-me", "about-Pinaki", "Contact"]
 author: "Pinaki Pani"
 ---
 
-Rotunda, Co Dublin | 0899652806 | mkumarpani@gmail.com | [LinkedIn](https://www.linkedin.com/in/pinaki-pani/)  
-[GitHub](https://github.com/PRPRIESLER) | [Personal Website](https://thelazylearner.netlify.app)
-
 I'm a ML/DL enthusiast and I have just finished my **MSc Data Analytics Graduate** and i am learning day in day out, even while i sleep(no joke..I'm serious..I mean my models do).My blogs/writings are a way to describe my thought process while i learn something new, especially in the field of Machine Learning, AI and Data Science.
 
 I am currently learning quite a bit about Computer Vision and also on the implementation of AI in the healthcare system, which might lead to posts regarding the new technologies that is being used in medical science to mitigate with challenges through the help of AI.
