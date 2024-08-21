@@ -6,7 +6,7 @@ aliases: ["about-me", "about-Pinaki", "Contact"]
 author: "Pinaki Pani"
 ---
 
-Rotunda, Co Dublin | 0899652806 | mkumarpani@gmail.com | [LinkedIn](www.linkedin.com/in/pinaki-pani)  
+Rotunda, Co Dublin | 0899652806 | mkumarpani@gmail.com | [LinkedIn](https://www.linkedin.com/in/pinaki-pani/)  
 [GitHub](https://github.com/PRPRIESLER) | [Personal Website](https://thelazylearner.netlify.app)
 
 I'm a ML/DL enthusiast and I have just finished my **MSc Data Analytics Graduate** and i am learning day in day out, even while i sleep(no joke..I'm serious..I mean my models do).My blogs/writings are a way to describe my thought process while i learn something new, especially in the field of Machine Learning, AI and Data Science.
@@ -19,7 +19,8 @@ As of something that keeps me pushing forward is always the will to learn. My _i
 
 I also post my blogs on medium: [Check here..](https://riesler.medium.com/few-basic-ideas-of-core-features-in-python-27bc62721009)
 
-Oh make sure to check out my [projects](/projects/). I have made some and also on the process of creating more. Reach out to me through my LinkedIn mentioned below.
+Oh make sure to check out my [projects](/projects/). I have made some and also on the process of creating more. Reach out to me through my LinkedIn.
+A few more details about me below.
 
 ## Technology Skills
 
